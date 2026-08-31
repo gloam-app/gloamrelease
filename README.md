@@ -16,7 +16,12 @@ Latest installer (always named `Gloam.dmg`):
 
 **[Download Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/latest/download/Gloam.dmg)**
 
-All versions: [Releases](https://github.com/gloam-app/gloamrelease/releases)
+## Release notes
+
+What's new in each version:
+
+- **[Changelog](CHANGELOG.md)** — notes for every published build
+- **[Releases](https://github.com/gloam-app/gloamrelease/releases)** — download any version and read notes on GitHub
 
 ## Install
 
