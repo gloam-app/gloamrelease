@@ -2,18 +2,23 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [1.0.2](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.2) — 2026-09-02
+## [0.0.3](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.3) — 2026-09-02
 
 ### Fixed
 
 - Scene deletion now commits its library update atomically, so cleanup errors cannot leave stale cards behind.
 - Removing the final scene now clears staged lock-screen media and restores Apple’s built-in wallpaper.
 
+### Changed
+
+- Feedback releases now use `0.0.x`; `1.0.0` is reserved for the production-ready MVP.
+- The DMG now opens with a branded drag-to-Applications installer layout.
+
 ### Download
 
-[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v1.0.2/Gloam.dmg)
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.3/Gloam.dmg)
 
-## [1.0.1](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.1) — 2026-09-02
+## [0.0.2](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.2) — 2026-09-02
 
 ### Fixed
 
@@ -27,18 +32,18 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Download
 
-[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v1.0.1/Gloam.dmg)
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.2/Gloam.dmg)
 
-## [1.0.0](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.0) — 2026-08-31
+## [0.0.1](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.1) — 2026-08-31
 
-First public release. Signed and notarized Mac installer (`Gloam.dmg`).
+First small-audience feedback release. Signed and notarized Mac installer (`Gloam.dmg`).
 
 ### Highlights
 
 - Live video wallpapers on the desktop
 - Optional lock screen video (requires Full Disk Access)
 - Import your own clips
-- Browse stock video from Pexels
+- Browse stock video in Discover
 - No account — files stay on your Mac
 
 ### Requirements
@@ -47,4 +52,4 @@ First public release. Signed and notarized Mac installer (`Gloam.dmg`).
 
 ### Download
 
-[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v1.0.0/Gloam.dmg)
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.1/Gloam.dmg)

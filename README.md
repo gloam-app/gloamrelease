@@ -8,6 +8,12 @@ The product site has features, install steps, and FAQ:
 
 **[gloamapp.thegaragelabs.cc](https://gloamapp.thegaragelabs.cc)**
 
+## Versioning
+
+Gloam is currently shared with a small feedback group. These builds use
+`0.0.x`, starting at `0.0.1`. The patch number increases with each feedback
+release. `1.0.0` is reserved for the final, production-ready MVP.
+
 ## Download
 
 This repository is **public Mac downloads only**. It does not contain app source.
