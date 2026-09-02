@@ -8,7 +8,7 @@ The product site has features, install steps, and FAQ:
 
 **[gloamapp.thegaragelabs.cc](https://gloamapp.thegaragelabs.cc)**
 
-Privacy policy: **[PRIVACY.md](PRIVACY.md)**
+Privacy policy: **[gloamapp.thegaragelabs.cc/privacy](https://gloamapp.thegaragelabs.cc/privacy/)** (offline mirror: [PRIVACY.md](PRIVACY.md))
 
 ## Versioning
 

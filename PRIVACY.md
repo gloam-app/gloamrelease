@@ -36,4 +36,4 @@ Local data remains until you delete scenes or remove Gloam’s Application Suppo
 
 For privacy questions, email [support@gloam.app](mailto:support@gloam.app).
 
-The website policy will also be available at [gloamapp.thegaragelabs.cc/privacy](https://gloamapp.thegaragelabs.cc/privacy/) after the next website deployment.
+The canonical policy lives at [gloamapp.thegaragelabs.cc/privacy](https://gloamapp.thegaragelabs.cc/privacy/). This file is a mirror for anyone browsing GitHub.
