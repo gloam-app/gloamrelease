@@ -2,6 +2,17 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [1.0.2](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.2) — 2026-09-02
+
+### Fixed
+
+- Scene deletion now commits its library update atomically, so cleanup errors cannot leave stale cards behind.
+- Removing the final scene now clears staged lock-screen media and restores Apple’s built-in wallpaper.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v1.0.2/Gloam.dmg)
+
 ## [1.0.1](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.1) — 2026-09-02
 
 ### Fixed
