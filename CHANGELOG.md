@@ -2,6 +2,24 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [0.0.4](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.4) — 2026-09-02
+
+### Added
+
+- Create live desktop and lock-screen slideshows from 2–100 image files with a configurable display interval.
+- Added an in-app Privacy settings page and a complete website privacy policy.
+
+### Privacy
+
+- Photo slideshows are rendered entirely on the Mac from files explicitly selected with Apple’s file picker.
+- Gloam does not request Photos-library access and never uploads personal videos or photos.
+- Removed unused analytics and crash-reporting SDKs from the app.
+- Location is no longer requested during onboarding; optional weather context explains its third-party processing.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.4/Gloam.dmg)
+
 ## [0.0.3](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.3) — 2026-09-02
 
 ### Fixed
