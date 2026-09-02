@@ -10,6 +10,7 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Assign any personal scene to a built-in or custom mood, override Gloam’s suggestion, or hand it back to automatic.
 - Create and delete your own moods. Deleting one keeps its scenes in My Scenes.
 - Rename personal scenes from the details panel.
+- Append more photos to an existing slideshow without retaining the originals.
 - A Privacy page in Settings, plus a full privacy policy on the website.
 
 ### Changed
@@ -21,11 +22,13 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Back navigation follows where you actually came from across Home, Discover, My Scenes, moods, and Settings.
 - Scene details reflow beside the library instead of covering the scene cards.
 - Import progress sits above the playback bar and says whether it is building a slideshow or importing a video.
+- My Scenes labels imported videos and photo slideshows clearly, and slideshow timing uses one accessible slider.
 - The menu bar explains why a scene is playing and reports imports or scene switches in progress.
 
 ### Fixed
 
 - Restored the live wallpaper catalog for public builds, which had been empty.
+- Photo slideshows now appear on the desktop immediately instead of waiting for lock-screen preparation, and failed playback no longer shows a false Playing state.
 - Deleting a scene now removes it immediately, commits atomically, and switches away from it if it was playing.
 - Deleting your last scene restores your Apple wallpaper and clears staged lock-screen media.
 - Quick Switch keeps every scene in a fixed position and moves a checkmark instead of shuffling the selected row.
@@ -33,6 +36,8 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Dragging media onto My Scenes performs the import instead of only highlighting the drop zone.
 - File pickers and drag-and-drop accept the same formats, and multi-file imports report partial failures as one combined result.
 - Long slideshow renders show per-photo progress and can be cancelled without leaving a half-built scene.
+- Updating a slideshow swaps its rendered video atomically and preserves its name, mood, favourite, and scene identity.
+- My Scenes owns drag-and-drop once, and scene-deletion failures now use the correct error message.
 - My Scenes search filters your scenes, and a stale search clears when you navigate away.
 - The returning-session welcome no longer interrupts a file picker or slideshow setup.
 - An empty Quick Switch menu now offers a way into the app.
