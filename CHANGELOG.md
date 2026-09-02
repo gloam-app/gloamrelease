@@ -2,6 +2,27 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [0.0.6](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.6) — 2026-09-02
+
+### Improved
+
+- Scene details now reflow beside the library instead of covering scene cards, with a roomier minimum window size.
+- Photo slideshow setup keeps its actions visible, handles duplicate selections safely, and transitions directly into visible creation progress.
+- Import progress stays above playback controls and clearly distinguishes slideshow creation from video import.
+- My Scenes search now filters personal scenes, and stale searches clear when navigating elsewhere.
+- Personal-scene renaming, mood editing, keyboard dismissal, and VoiceOver labels are more consistent.
+- The menu bar now explains automatic playback context and reports imports or scene switching in progress.
+
+### Fixed
+
+- Returning-session welcome no longer interrupts a file picker or slideshow setup.
+- Partial multi-video imports now show one clear combined outcome instead of simultaneous success and error messages.
+- Empty Quick Switch menus now provide a direct way to open Gloam.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.6/Gloam.dmg)
+
 ## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-02
 
 ### Added
