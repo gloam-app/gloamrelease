@@ -2,6 +2,22 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [1.0.1](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.1) — 2026-09-02
+
+### Fixed
+
+- Restored the live wallpaper catalog for public builds.
+- Scene deletion now removes the item immediately and switches away from a deleted active scene.
+- Deleting the final active scene now returns the desktop to the user’s Apple wallpaper.
+
+### Changed
+
+- Discover is included in Gloam without API-key setup in the app.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v1.0.1/Gloam.dmg)
+
 ## [1.0.0](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.0) — 2026-08-31
 
 First public release. Signed and notarized Mac installer (`Gloam.dmg`).
