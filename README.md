@@ -1,12 +1,14 @@
 # Gloam
 
-Gloam is a Mac app for **live video wallpapers**. Pick a scene and it loops on your **desktop** and, if you want, the **lock screen**. Import your own clips or browse stock video from Pexels. There is no account. Your files stay on your Mac.
+Gloam is a Mac app for **live and photo-slideshow wallpapers**. Pick a scene and it plays on your **desktop** and, if you want, the **lock screen**. Import clips, create a slideshow from selected image files, or browse stock video. There is no account, personal media stays on your Mac, and the app contains no advertising or behavioral analytics.
 
 ## Learn more
 
 The product site has features, install steps, and FAQ:
 
 **[gloamapp.thegaragelabs.cc](https://gloamapp.thegaragelabs.cc)**
+
+Privacy policy: **[gloamapp.thegaragelabs.cc/privacy](https://gloamapp.thegaragelabs.cc/privacy/)**
 
 ## Versioning
 
