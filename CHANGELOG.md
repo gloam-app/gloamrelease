@@ -53,6 +53,7 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Auto mode only changes the wallpaper when the time of day or weather mood actually changes, and it never picks a scene at random.
 - Choosing a scene yourself switches the menu bar to Manual; turning Auto back on applies its pick right away.
 - The installer window again opens with the branded background and drag-to-Applications arrangement.
+- Photo slideshow videos now use a stable 2 fps stream and last exactly the duration shown in the app, instead of sparse frames adding an extra photo interval. Existing affected slideshows are rebuilt automatically from Gloam’s private photo copies.
 
 ### Privacy
 
