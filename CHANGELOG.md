@@ -27,6 +27,8 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - The menu bar explains why a scene is playing and reports imports or scene switches in progress, including lock-screen preparation.
 - Scene changes honor the crossfade duration setting, and the full-screen pause preference controls occlusion-based power saving.
 - Display settings show only the modes that are currently supported.
+- Moods you made are now marked as yours in the mood strip and grouped under “Your moods” in the all-moods menu, so they are easy to tell apart from Gloam’s own moods.
+- Right-clicking one of your moods offers Delete, in addition to the Delete Mood button on the mood page. Deleting the mood you are viewing returns you to where you came from.
 
 ### Fixed
 
