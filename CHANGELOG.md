@@ -32,6 +32,7 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Photo slideshows now render at the native pixels of your display (up to 5K) instead of a fixed 1920×1080 frame, so photos are as sharp as the screen allows. Slideshows made earlier are rebuilt automatically the next time Gloam starts.
 - Gloam’s private working copies of your slideshow photos keep their full resolution, so a slideshow can be rebuilt later for a larger display.
 - Scene details report the slideshow’s real resolution instead of always claiming 1920×1080.
+- Slideshows rendered with a keyframe every two seconds are rebuilt the next time Gloam starts, the same way duration and resolution already are, so older scenes shrink without anyone touching Settings.
 
 ### Fixed
 
