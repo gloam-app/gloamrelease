@@ -29,6 +29,9 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Display settings show only the modes that are currently supported.
 - Moods you made are now marked as yours in the mood strip and grouped under “Your moods” in the all-moods menu, so they are easy to tell apart from Gloam’s own moods.
 - Right-clicking one of your moods offers Delete, in addition to the Delete Mood button on the mood page. Deleting the mood you are viewing returns you to where you came from.
+- Photo slideshows now render at the native pixels of your display (up to 5K) instead of a fixed 1920×1080 frame, so photos are as sharp as the screen allows. Slideshows made earlier are rebuilt automatically the next time Gloam starts.
+- Gloam’s private working copies of your slideshow photos keep their full resolution, so a slideshow can be rebuilt later for a larger display.
+- Scene details report the slideshow’s real resolution instead of always claiming 1920×1080.
 
 ### Fixed
 
