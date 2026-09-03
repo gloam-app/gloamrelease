@@ -49,6 +49,10 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Cancel now stops slideshow creation as advertised instead of leaving the render running.
 - Launch restores another playable scene when the previous file is unavailable, and runtime refreshes switch away from missing media.
 - Explore search and download failures show actionable error and retry states.
+- The scene you pick now stays put. Auto mode was on by default and re-picked a scene every minute, so a photo slideshow was replaced by a video shortly after you applied it.
+- Auto mode only changes the wallpaper when the time of day or weather mood actually changes, and it never picks a scene at random.
+- Choosing a scene yourself switches the menu bar to Manual; turning Auto back on applies its pick right away.
+- The installer window again opens with the branded background and drag-to-Applications arrangement.
 
 ### Privacy
 
