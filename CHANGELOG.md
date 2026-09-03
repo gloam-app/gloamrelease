@@ -33,6 +33,7 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Gloam’s private working copies of your slideshow photos keep their full resolution, so a slideshow can be rebuilt later for a larger display.
 - Scene details report the slideshow’s real resolution instead of always claiming 1920×1080.
 - Slideshows rendered with a keyframe every two seconds are rebuilt the next time Gloam starts, the same way duration and resolution already are, so older scenes shrink without anyone touching Settings.
+- Slideshows that were made before Gloam kept private photo copies are rebuilt from the video itself on the next launch, then those frames are saved as editable copies so Settings and Add Photos work again.
 
 ### Fixed
 
