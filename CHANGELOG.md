@@ -59,6 +59,8 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Choosing a scene yourself switches the menu bar to Manual; turning Auto back on applies its pick right away.
 - The installer window again opens with the branded background and drag-to-Applications arrangement.
 - Photo slideshow videos now use a stable 2 fps stream and last exactly the duration shown in the app, instead of sparse frames adding an extra photo interval. Existing affected slideshows are rebuilt automatically from Gloam’s private photo copies.
+- “Add Photos…” in scene details now opens the photo picker. The library window already owned two pickers and SwiftUI silently refused to present a third, so the button did nothing.
+- Slideshow videos are a third of their previous size at the same resolution and duration: identical frames between slides no longer force a keyframe every two seconds.
 
 ### Privacy
 
