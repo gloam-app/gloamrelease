@@ -2,6 +2,27 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [0.0.3](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.3) — 2026-09-04
+
+### Changed
+
+- The main navigation is now Desktop, Discover, and My Scenes: Desktop shows what is playing and what is already on this Mac, while Discover is clearly for finding new online wallpapers.
+- Desktop no longer repeats the scene list from My Scenes. It now shows what is on your desktop, moods suggested for right now, and a single link into My Scenes for the full library.
+- Every page now explains its purpose in place. My Scenes focuses only on managing local media, mood pages distinguish local and online results, collections explain what they contain, and the Discover settings category is now clearly named Online Catalog.
+
+### Fixed
+
+- Search is now visible and scoped to the current page, with page-specific prompts, result counts, Command-F focus, Escape-to-clear, and clear loading, empty, and error states.
+- Discover search results now fill the window in a grid that reflows with the window width, instead of four cards per row followed by empty space, and a Load More button fetches further pages.
+- Discover search no longer displays stale results from an earlier query, and retry now repeats the failed search instead of refreshing the general catalog.
+- Load More now reveals another set of Discover results, including results already cached locally, and skips duplicate API pages instead of appearing to do nothing.
+- Video Upload now opens a reliable native picker from every My Scenes entry point, accepts all supported video formats, and understands the URL forms used by Finder and other drag sources.
+- Deleting a personal video or photo slideshow now uses a visible confirmation alert before removing it from My Scenes.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.3/Gloam.dmg)
+
 ## [0.0.2](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.2) — 2026-09-02
 
 ### Added
