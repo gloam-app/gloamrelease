@@ -2,13 +2,31 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.3](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.3) — 2026-09-04
+## [0.0.3](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.3) — 2026-09-05
 
 ### Changed
 
 - The main navigation is now Desktop, Discover, and My Scenes: Desktop shows what is playing and what is already on this Mac, while Discover is clearly for finding new online wallpapers.
 - Desktop no longer repeats the scene list from My Scenes. It now shows what is on your desktop, moods suggested for right now, and a single link into My Scenes for the full library.
 - Every page now explains its purpose in place. My Scenes focuses only on managing local media, mood pages distinguish local and online results, collections explain what they contain, and the Discover settings category is now clearly named Online Catalog.
+- The Desktop banner groups its title and Set as Wallpaper action over the artwork, while staying short enough to keep the scene grid visible.
+- The menu-bar popover now uses a single transport row rather than stacked menu rows, and reserves colour for readings that need attention rather than routine ones.
+- The scene details panel now uses one label style for every field, credits a photographer once instead of twice, shows the favourite control on the artwork, and keeps Delete Scene at the end away from the primary button.
+- First-run setup is tighter: Welcome and All Set play the live scene behind the text as one centred block, and setup copy now uses the same system typeface as the rest of the app.
+- Settings rows are held to a readable width instead of stretching a label and its control across the whole window, and preferences use switches like System Settings.
+- The library window opens at 920×600 with a shorter Desktop banner and a denser three-across card grid, instead of a wide 1120×700 gallery.
+- Page tabs, mood chips, Favourites, and My Scenes are plain text controls. Collections, All moods, and the Add-scene plus-menu are gone; adding a scene uses a two-choice sheet.
+- Scene cards scale and dim on press, hover still previews, and tapping the idle Desktop banner sets the wallpaper.
+- The status icon’s right-click menu is now a small fallback containing only Open Gloam, Settings, and Quit.
+- The menu-bar popover is now just what is playing, Pause and Next, and the way into Gloam, Settings, or Quit. Quick Switch, the display and lock-screen switches, the context and CPU readings, and Shuffle are gone from the menu bar; each of those decisions is made in the window or Settings, where the artwork and explanations are.
+- Automatic scene switching now has a proper home in Settings under Playback, with an explanation of what it does, instead of an Auto/Manual chip in the menu bar.
+- The duplicate macOS View menu was removed; appearance remains available in Settings.
+- Creating a photo slideshow now uses the reliable native photo picker, and media pickers wait for the Add sheet to close before presenting.
+- Local videos and photo slideshows preview while hovered and set as the wallpaper with one click; scene details remain available from the card’s context menu.
+- Settings is now one compact, scrollable page like the rest of the app, with no category sidebar or nested detail page. Related options share consistent rows and short explanations.
+- Settings uses one set of headings, row heights, switches, and sliders instead of mixing custom cards with grouped forms.
+- The Displays page dropped its Follow-main-display/Off picker, whose two options repeated the switch next to it, and now names each screen's resolution instead.
+- Scene cards no longer show a passive “Click to set” label. Clicking still applies the scene, and Gloam now confirms the scene is your wallpaper only after the apply operation succeeds.
 
 ### Fixed
 
@@ -23,90 +41,43 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 [Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.3/Gloam.dmg)
 
-## [0.0.2](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.2) — 2026-09-02
-
-### Added
-
-- Turn your own photos into a live desktop and lock-screen slideshow: pick 2–100 images, review and reorder them, choose a 2–60 second interval, and fill the screen or fit the whole photo.
-- Assign any personal scene to a built-in or custom mood, override Gloam’s suggestion, or hand it back to automatic.
-- Create and delete your own moods. Deleting one keeps its scenes in My Scenes.
-- Rename personal scenes from the details panel.
-- Append more photos to an existing slideshow without retaining the originals.
-- Rebuild an existing slideshow with a new per-photo duration or fill/fit framing from the scene details panel.
-- A Privacy page in Settings, plus a full privacy policy on the website.
-
-### Changed
-
-- Feedback builds now use `0.0.x`. `1.0.0` is reserved for the production-ready MVP.
-- The installer opens with a branded drag-to-Applications layout.
-- Discover works out of the box with no API key setup in the app.
-- Adding a scene now lives only in My Scenes instead of being duplicated in the toolbar.
-- Back navigation follows where you actually came from across Home, Discover, My Scenes, moods, and Settings.
-- Scene details reflow beside the library instead of covering the scene cards.
-- Import progress sits above the playback bar and says whether it is building a slideshow or importing a video.
-- My Scenes labels imported videos and photo slideshows clearly, and slideshow timing uses one accessible slider.
-- The menu bar explains why a scene is playing and reports imports or scene switches in progress, including lock-screen preparation.
-- Scene changes honor the crossfade duration setting, and the full-screen pause preference controls occlusion-based power saving.
-- Display settings show only the modes that are currently supported.
-- Moods you made are now marked as yours in the mood strip and grouped under “Your moods” in the all-moods menu, so they are easy to tell apart from Gloam’s own moods.
-- Right-clicking one of your moods offers Delete, in addition to the Delete Mood button on the mood page. Deleting the mood you are viewing returns you to where you came from.
-- Photo slideshows now render at the native pixels of your display (up to 5K) instead of a fixed 1920×1080 frame, so photos are as sharp as the screen allows. Slideshows made earlier are rebuilt automatically the next time Gloam starts.
-- Gloam’s private working copies of your slideshow photos keep their full resolution, so a slideshow can be rebuilt later for a larger display.
-- Scene details report the slideshow’s real resolution instead of always claiming 1920×1080.
-- Slideshows rendered with a keyframe every two seconds are rebuilt the next time Gloam starts, the same way duration and resolution already are, so older scenes shrink without anyone touching Settings.
-- Slideshows that were made before Gloam kept private photo copies are rebuilt from the video itself on the next launch, then those frames are saved as editable copies so Settings and Add Photos work again.
+## [1.0.2](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.2) — 2026-09-02
 
 ### Fixed
 
-- Restored the live wallpaper catalog for public builds, which had been empty.
-- Photo slideshows now appear on the desktop immediately instead of waiting for lock-screen preparation, and failed playback is reported instead of showing a false Playing state — including during multi-file imports.
-- Deleting a scene now removes it immediately, commits atomically, and switches away from it if it was playing.
-- Deleting your last scene restores your Apple wallpaper and clears staged lock-screen media.
-- Quick Switch keeps every scene in a fixed position and moves a checkmark instead of shuffling the selected row.
-- Favourite order survives relaunches and catalog refreshes.
-- Dragging media onto My Scenes performs the import instead of only highlighting the drop zone.
-- File pickers and drag-and-drop accept the same formats, and multi-file imports report partial failures as one combined result.
-- Long slideshow renders show per-photo progress and can be cancelled without leaving a half-built scene.
-- Updating a slideshow swaps its rendered video atomically and preserves its name, mood, favourite, and scene identity.
-- My Scenes owns drag-and-drop once, and scene-deletion failures now use the correct error message.
-- My Scenes search filters your scenes, and a stale search clears when you navigate away.
-- The returning-session welcome no longer interrupts a file picker or slideshow setup.
-- An empty Quick Switch menu now offers a way into the app.
-- Returning to a photo slideshow after playing a video decodes its first frame before swapping players, so the desktop no longer flashes black.
-- Rapid scene selections can no longer let a slower, older playback request overwrite the latest choice.
-- Cancel now stops slideshow creation as advertised instead of leaving the render running.
-- Launch restores another playable scene when the previous file is unavailable, and runtime refreshes switch away from missing media.
-- Explore search and download failures show actionable error and retry states.
-- The scene you pick now stays put. Auto mode was on by default and re-picked a scene every minute, so a photo slideshow was replaced by a video shortly after you applied it.
-- Auto mode only changes the wallpaper when the time of day or weather mood actually changes, and it never picks a scene at random.
-- Choosing a scene yourself switches the menu bar to Manual; turning Auto back on applies its pick right away.
-- The installer window again opens with the branded background and drag-to-Applications arrangement.
-- Photo slideshow videos now use a stable 2 fps stream and last exactly the duration shown in the app, instead of sparse frames adding an extra photo interval. Existing affected slideshows are rebuilt automatically from Gloam’s private photo copies.
-- “Add Photos…” in scene details now opens the photo picker. The library window already owned two pickers and SwiftUI silently refused to present a third, so the button did nothing.
-- Slideshow videos are a third of their previous size at the same resolution and duration: identical frames between slides no longer force a keyframe every two seconds.
-
-### Privacy
-
-- Photo slideshows are rendered entirely on your Mac from files you pick yourself.
-- Gloam keeps private app-owned editing copies of slideshow photos locally, without linking back to your originals or uploading personal media.
-- Gloam never asks for Photos-library access and never uploads your videos or photos.
-- Removed the unused analytics and crash-reporting SDKs.
-- Location is no longer requested during onboarding. Optional weather context explains its third-party processing.
+- Scene deletion now commits its library update atomically, so cleanup errors cannot leave stale cards behind.
+- Removing the final scene now clears staged lock-screen media and restores Apple’s built-in wallpaper.
 
 ### Download
 
-[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.2/Gloam.dmg)
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v1.0.2/Gloam.dmg)
 
-## [0.0.1](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.1) — 2026-08-31
+## [1.0.1](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.1) — 2026-09-02
 
-First small-audience feedback release. Signed and notarized Mac installer (`Gloam.dmg`).
+### Fixed
+
+- Restored the live wallpaper catalog for public builds.
+- Scene deletion now removes the item immediately and switches away from a deleted active scene.
+- Deleting the final active scene now returns the desktop to the user’s Apple wallpaper.
+
+### Changed
+
+- Discover is included in Gloam without API-key setup in the app.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v1.0.1/Gloam.dmg)
+
+## [1.0.0](https://github.com/gloam-app/gloamrelease/releases/tag/v1.0.0) — 2026-08-31
+
+First public release. Signed and notarized Mac installer (`Gloam.dmg`).
 
 ### Highlights
 
 - Live video wallpapers on the desktop
 - Optional lock screen video (requires Full Disk Access)
 - Import your own clips
-- Browse stock video in Discover
+- Browse stock video from Pexels
 - No account — files stay on your Mac
 
 ### Requirements
@@ -115,4 +86,4 @@ First small-audience feedback release. Signed and notarized Mac installer (`Gloa
 
 ### Download
 
-[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.1/Gloam.dmg)
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v1.0.0/Gloam.dmg)
