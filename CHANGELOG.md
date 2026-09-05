@@ -36,6 +36,8 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Load More now reveals another set of Discover results, including results already cached locally, and skips duplicate API pages instead of appearing to do nothing.
 - Video Upload now opens a reliable native picker from every My Scenes entry point, accepts all supported video formats, and understands the URL forms used by Finder and other drag sources.
 - Deleting a personal video or photo slideshow now uses a visible confirmation alert before removing it from My Scenes.
+- Live video is back on the lock screen. Gloam checked the wallpaper store for both the lock screen slot and the screen saver slot, and macOS keeps removing the screen saver one — so Gloam decided the lock screen was broken, rewrote the store, and restarted the system wallpaper engine over and over.
+- The Lock Screen switch in Settings now stages the current scene when you turn it on, and Restart re-links it, instead of only recording the preference.
 
 ### Download
 
