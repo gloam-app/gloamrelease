@@ -2,6 +2,30 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [0.0.4](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.4) — 2026-09-08
+
+### Added
+
+- Gloam can check for updates from the menu bar or Settings, verify a signed update, and install it without making you replace the app by hand. Sparkle asks before enabling its daily checks and always asks before installing.
+- Saved photo slideshows now have one editor where you can see every photo, add or remove photos, reorder them, and change timing or framing before saving.
+
+### Changed
+
+- Cards, Discover downloads, and the menu-bar popover now match what they actually do: click sets wallpaper, details stay on the scene you just applied, downloaded clips can be set from Discover, and Pause stays in sync when playback stops.
+- Creating and editing a photo slideshow uses a photo board: a large preview, a wrapping grid, and drag-to-reorder, instead of a sideways filmstrip with arrow buttons. The sheet grows with the number of photos rather than leaving empty space, and stays within the screen it opens on.
+- My Scenes (⌘3), Pause or Resume (⌘P), and Scene Details (⌘I) now have keyboard shortcuts, a search you have typed follows you from your library into Discover instead of being cleared, and opening a Settings category scrolls to it.
+- First-run setup now asks you to pick a first wallpaper rather than applying one for you, and confirms before you skip setup.
+- Downloaded Discover scenes appear in My Scenes as soon as they are saved. Lock-screen preparation continues in the background instead of delaying the download result.
+- Settings now shows the size of disposable downloads before clearing them, asks for confirmation, and confirms what was removed. My Scenes, installed bundles, and slideshow photos are never cache-cleanup targets.
+
+### Fixed
+
+- Live wallpaper windows now follow every Mission Control desktop on a display, including Desktops added after Gloam starts.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.4/Gloam.dmg)
+
 ## [0.0.3](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.3) — 2026-09-08
 
 ### Changed
