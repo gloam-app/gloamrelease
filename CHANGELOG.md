@@ -2,7 +2,7 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.3](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.3) — 2026-09-05
+## [0.0.3](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.3) — 2026-09-08
 
 ### Changed
 
@@ -38,6 +38,20 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Deleting a personal video or photo slideshow now uses a visible confirmation alert before removing it from My Scenes.
 - Live video is back on the lock screen. Gloam checked the wallpaper store for both the lock screen slot and the screen saver slot, and macOS keeps removing the screen saver one — so Gloam decided the lock screen was broken, rewrote the store, and restarted the system wallpaper engine over and over.
 - The Lock Screen switch in Settings now stages the current scene when you turn it on, and Restart re-links it, instead of only recording the preference.
+- The lock screen keeps its live wallpaper. Staging a clip for one scene deleted the staged clips of every other scene, so importing or switching scenes could delete the very clip the lock screen was playing — macOS was left pointing at a wallpaper that no longer existed.
+- Gloam now notices when its lock screen clip disappears from Apple's wallpaper catalog and stages it again, instead of leaving a lock screen that looks configured but plays nothing.
+- Staging two scenes at once no longer loses one of them. Gloam edits Apple's wallpaper catalog one change at a time, so overlapping edits cannot drop each other's entry.
+- Running Gloam's own tests no longer takes the live wallpaper off your lock screen: tests now use a throwaway copy of the wallpaper store instead of the real one.
+- Desktop video resumes immediately after the Mac wakes. Sleep no longer gets mistaken for a manual pause, and Gloam reasserts playback while displays reconnect.
+- Gloam rebuilds Apple's aerial extension after wake instead of trusting a process that survived sleep but stopped producing video frames.
+- Locking and unlocking repeatedly keeps the live wallpaper. Gloam used to restart Apple's wallpaper agents while the screen was locked, which killed the process painting the lock screen — the wallpaper survived the first lock and vanished on the next one. A locked session cannot start that process again, so Gloam now leaves it alone across a lock and only nudges it when it has gone missing.
+- The lock screen no longer goes black after an unlock. Apple's aerial extension loses its video reader while the lock screen tears down, and nothing inside it recovers: the same process stayed alive producing no frames, so every later lock was black. Gloam now replaces that extension while the Mac is unlocked, leaving one that can play ready for the next lock.
+- Gloam stopped rewriting the screen saver slot on every lock and unlock. macOS strips it again within seconds, and rewriting it mid-lock made Apple's extension re-resolve its video and lose its sample reader.
+- Gloam and macOS no longer trade writes over the wallpaper store. Gloam ignores the file changes it makes itself and repairs the store at a measured pace, instead of turning one rewrite by macOS into a chain of repairs that reloaded the lock screen each time.
+- Setting a scene as the lock screen restarts Apple's wallpaper agents once rather than three times in quick succession.
+- After each unlock Gloam confirms the lock screen clip is still staged and gets Apple's aerial extension running again, so every following lock has a wallpaper ready.
+- Gloam keeps watching Apple's wallpaper store after macOS replaces the file, instead of missing every later change.
+- Gloam's diagnostic log is readable in a released build. Every line it wrote was recorded as `<private>`, so a report about the lock screen came with no record of what Gloam had actually done.
 
 ### Download
 
