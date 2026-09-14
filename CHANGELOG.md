@@ -27,9 +27,7 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Changed
 
-- Clicking a card sets the wallpaper, and details follow the scene you applied.
-- Downloaded scenes appear in My Scenes immediately.
-- Cache cleanup shows what it will delete and asks first.
+- Clicking a card sets the wallpaper, and downloads land in My Scenes immediately.
 
 ### Fixed
 
@@ -43,15 +41,14 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Changed
 
-- Navigation is now Desktop, Discover, and My Scenes, so finding wallpapers and managing your own are separate.
-- The menu bar is just what is playing, Pause, and Next; everything else moved into the window and Settings.
-- Settings is one compact scrollable page instead of a sidebar with nested pages.
+- Navigation is now Desktop, Discover, and My Scenes.
+- The menu bar is just what is playing, Pause, and Next.
+- Settings is one compact scrollable page.
 
 ### Fixed
 
-- Live wallpaper is back on the lock screen, and it survives locking and unlocking over and over.
-- Desktop video resumes as soon as your Mac wakes from sleep.
-- Search works on every page, and Discover results fill the window with a Load More button.
+- Live wallpaper is back on the lock screen, and desktop video resumes after sleep.
+- Search works on every page.
 
 ### Download
 
@@ -61,18 +58,16 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Added
 
-- Turn your own photos into a live slideshow: pick the photos, set the timing, and choose fill or fit.
+- Turn your own photos into a live slideshow.
 - Assign scenes to moods, and create or delete moods of your own.
 
 ### Changed
 
-- Slideshows render at your display's native resolution, up to 5K, in a third of the file size.
-- Settings has a Privacy page, and the unused analytics and crash-reporting SDKs are gone.
+- Slideshows render at your display’s native resolution, up to 5K.
 
 ### Fixed
 
 - The scene you pick stays put — automatic switching no longer replaces it a minute later.
-- Deleting, importing, and searching scenes behave: instant deletes, working drag-and-drop, honest progress.
 
 ### Download
 
@@ -80,12 +75,11 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ## [0.0.1](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.1) — 2026-08-31
 
-First feedback release, signed and notarized for macOS 14 (Sonoma) or later.
+First feedback release for macOS 14 (Sonoma) or later.
 
 ### Added
 
-- Live video wallpapers on your desktop.
-- Optional live wallpaper on the lock screen.
+- Live video wallpapers on your desktop, with an optional lock screen.
 - Import your own clips, or find new ones in Discover.
 - No account, and your files never leave your Mac.
 
