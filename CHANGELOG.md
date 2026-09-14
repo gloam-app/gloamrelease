@@ -10,9 +10,10 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Changed
 
-- Desktop is now playing: what’s on, a compact lock row if it differs, then scenes you can switch to.
 - Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
-- Settings is a sibling screen with no Back control.
+- New live scenes look as rich on the desktop as they do on the lock screen.
+- Switching scenes fades on the desktop.
+- Settings can turn off GPU desktop playback to save power.
 
 ### Fixed
 
