@@ -11,13 +11,8 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 ### Changed
 
 - Desktop is now playing: what’s on, a compact lock row if it differs, then scenes you can switch to.
-- Discover mood chips filter the catalog in place; Settings is a sibling screen with no Back control.
-- Unfinished ambient-audio controls are hidden until that feature is ready.
-
-### Fixed
-
-- After you set a wallpaper, the lock-screen preparing notice closes on its own when the clip is ready.
-- System Settings shows a sharp wallpaper card; older scenes re-encode once; Fill Screen stays inside the slideshow card.
+- Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
+- Settings is a sibling screen with no Back control.
 
 ### Download
 

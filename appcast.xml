@@ -22,13 +22,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ### Changed
 
 - Desktop is now playing: what’s on, a compact lock row if it differs, then scenes you can switch to.
-- Discover mood chips filter the catalog in place; Settings is a sibling screen with no Back control.
-- Unfinished ambient-audio controls are hidden until that feature is ready.
-
-### Fixed
-
-- After you set a wallpaper, the lock-screen preparing notice closes on its own when the clip is ready.
-- System Settings shows a sharp wallpaper card; older scenes re-encode once; Fill Screen stays inside the slideshow card.
+- Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
+- Settings is a sibling screen with no Back control.
 
 ### Learn more
 
@@ -36,7 +31,7 @@ https://gloamapp.thegaragelabs.cc
 
 Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4437546" type="application/octet-stream" sparkle:edSignature="F6qPoVNRF+Ziuoh87AF74TaXGosupb4hSJPTevar4x68YjQl63obMvnsHPS0vUyVzh0YDVkRp5i0jyzVwrx2Aw=="/>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4465175" type="application/octet-stream" sparkle:edSignature="RlsUWyK8dgedsUKwurg+QPMqqLY2G8dBvsjBseKZeG6ykQZBNzzJsvxo+cqZxjXwMpBhsERc/FySqszS9rurBQ=="/>
         </item>
         <item>
             <title>0.0.4</title>
@@ -77,6 +72,6 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 8XOrDX9yqMybEtlEtbAuoxvpwZFip6dAFVHx2yyZJwv33/ii1NUE75FkFLXmmG858UKwJHUa2kwGedcbFxyBBg==
-length: 4933
+edSignature: SDfBA5NM6Q0wmiYTAcp9G6xIx5Mti98cnVPHn0kt6Hfy+3x7AyJSx069iHGhUz77lPYXSir4iC8/spCWy7YyAw==
+length: 4670
 -->
