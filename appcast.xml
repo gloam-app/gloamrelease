@@ -15,17 +15,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.5
 
+### Added
+
+- Set a scene on Desktop, Lock Screen, or Both, like on iPhone. Auto mode only changes the desktop.
+
 ### Changed
 
-- The mood strip starts with the mood for right now and keeps every other mood one click away.
-- After you set a wallpaper, Gloam says when the lock screen is still preparing and when it is ready.
+- Desktop is now playing: what’s on, a compact lock row if it differs, then scenes you can switch to.
+- Discover mood chips filter the catalog in place; Settings is a sibling screen with no Back control.
 - Unfinished ambient-audio controls are hidden until that feature is ready.
 
 ### Fixed
 
-- System Settings shows your scene sharply: the current-wallpaper card is no longer blown out, and the grid uses 4K posters.
-- Scenes staged by an earlier version are re-encoded once, the first time you set them again.
-- In the slideshow editor, Fill Screen no longer spills the photo out of its card, and switching framing no longer moves the controls you just clicked.
+- After you set a wallpaper, the lock-screen preparing notice closes on its own when the clip is ready.
+- System Settings shows a sharp wallpaper card; older scenes re-encode once; Fill Screen stays inside the slideshow card.
 
 ### Learn more
 
@@ -33,7 +36,7 @@ https://gloamapp.thegaragelabs.cc
 
 Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4417541" type="application/octet-stream" sparkle:edSignature="Bkr44j6u1xIa/M4jAkVSsJWRI3H5eb+wrqvNlneb3nbw9v6sz6iNrfOlORuhQDL4vEGoh+S7NXXceb6bRZEECQ=="/>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4437546" type="application/octet-stream" sparkle:edSignature="F6qPoVNRF+Ziuoh87AF74TaXGosupb4hSJPTevar4x68YjQl63obMvnsHPS0vUyVzh0YDVkRp5i0jyzVwrx2Aw=="/>
         </item>
         <item>
             <title>0.0.4</title>
@@ -74,6 +77,6 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ShSXnlnYyVHskqoDurQDNo50pIt2MH4YeyfoO97qhpavwWIqaLGqDk1Zb+qtfNWTXFq0+JXhrUu4SOrhEX+WCA==
-length: 4957
+edSignature: 8XOrDX9yqMybEtlEtbAuoxvpwZFip6dAFVHx2yyZJwv33/ii1NUE75FkFLXmmG858UKwJHUa2kwGedcbFxyBBg==
+length: 4933
 -->

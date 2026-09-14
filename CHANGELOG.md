@@ -2,19 +2,22 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-13
+## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-14
+
+### Added
+
+- Set a scene on Desktop, Lock Screen, or Both, like on iPhone. Auto mode only changes the desktop.
 
 ### Changed
 
-- The mood strip starts with the mood for right now and keeps every other mood one click away.
-- After you set a wallpaper, Gloam says when the lock screen is still preparing and when it is ready.
+- Desktop is now playing: what’s on, a compact lock row if it differs, then scenes you can switch to.
+- Discover mood chips filter the catalog in place; Settings is a sibling screen with no Back control.
 - Unfinished ambient-audio controls are hidden until that feature is ready.
 
 ### Fixed
 
-- System Settings shows your scene sharply: the current-wallpaper card is no longer blown out, and the grid uses 4K posters.
-- Scenes staged by an earlier version are re-encoded once, the first time you set them again.
-- In the slideshow editor, Fill Screen no longer spills the photo out of its card, and switching framing no longer moves the controls you just clicked.
+- After you set a wallpaper, the lock-screen preparing notice closes on its own when the clip is ready.
+- System Settings shows a sharp wallpaper card; older scenes re-encode once; Fill Screen stays inside the slideshow card.
 
 ### Download
 
