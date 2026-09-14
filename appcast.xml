@@ -1,8 +1,40 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Gloam</title>
+        <item>
+            <title>0.0.5</title>
+            <pubDate>Sun, 13 Sep 2026 22:05:47 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.5
+
+### Changed
+
+- The mood strip starts with the mood for right now and keeps every other mood one click away.
+- After you set a wallpaper, Gloam says when the lock screen is still preparing and when it is ready.
+- Unfinished ambient-audio controls are hidden until that feature is ready.
+
+### Fixed
+
+- The current-wallpaper card in System Settings shows your scene instead of a grainy, blown-out copy of it.
+- Wallpaper previews in System Settings are sharp 4K posters instead of an upscaled 1080p JPEG.
+- Scenes staged by an earlier version are re-encoded once, the first time you set them again.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4414187" type="application/octet-stream" sparkle:edSignature="XFzXpmUgQDT56xTHUK9QWYrLoGTgPuOHznTuZaU60uV5KozLgmuSSdbd8pYsVzqQp//YqTiVNR62O01wHMyuCQ=="/>
+        </item>
         <item>
             <title>0.0.4</title>
             <pubDate>Tue, 08 Sep 2026 22:30:00 -0700</pubDate>
@@ -37,10 +69,11 @@ https://gloamapp.thegaragelabs.cc
 
 Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.4/Gloam.dmg" length="4394158" type="application/octet-stream" sparkle:edSignature="h1ZyR9VjM9NBGsB+nMu9BRMy5GFFDRpd2pn39hmKFFjCJAa/qGPSMBznGq9FHVtegjskkDwf++gxngPstUqEDA=="></enclosure>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.4/Gloam.dmg" length="4394158" type="application/octet-stream" sparkle:edSignature="h1ZyR9VjM9NBGsB+nMu9BRMy5GFFDRpd2pn39hmKFFjCJAa/qGPSMBznGq9FHVtegjskkDwf++gxngPstUqEDA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: PZw1SP8I67BncF32vQgH5Zt7srQs3Ir1PRQa4xJNnxsjHihndJluSntvSgfZZbR+WzecuE2L7LJvGT7vm2ByBg==
-length: 3275
+</rss>
+<!-- sparkle-signatures:
+edSignature: ijAAud+aYWTyqRiCX+w04WuQpJDMMa5HaamCXJSFko1MLedjs/jKXeJhz6SFXII0wBXukT0DYQR31zJwVX8jAQ==
+length: 4884
 -->

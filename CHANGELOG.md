@@ -2,6 +2,24 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-13
+
+### Changed
+
+- The mood strip starts with the mood for right now and keeps every other mood one click away.
+- After you set a wallpaper, Gloam says when the lock screen is still preparing and when it is ready.
+- Unfinished ambient-audio controls are hidden until that feature is ready.
+
+### Fixed
+
+- The current-wallpaper card in System Settings shows your scene instead of a grainy, blown-out copy of it.
+- Wallpaper previews in System Settings are sharp 4K posters instead of an upscaled 1080p JPEG.
+- Scenes staged by an earlier version are re-encoded once, the first time you set them again.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg)
+
 ## [0.0.4](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.4) — 2026-09-08
 
 ### Added
