@@ -25,13 +25,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 - Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
 - Settings is a sibling screen with no Back control.
 
+### Fixed
+
+- Live wallpapers loop without a visible cut.
+
 ### Learn more
 
 https://gloamapp.thegaragelabs.cc
 
 Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4465175" type="application/octet-stream" sparkle:edSignature="RlsUWyK8dgedsUKwurg+QPMqqLY2G8dBvsjBseKZeG6ykQZBNzzJsvxo+cqZxjXwMpBhsERc/FySqszS9rurBQ=="/>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4511172" type="application/octet-stream" sparkle:edSignature="KydZOsIDTJZrFvm05ljAqmz4u3/Jd6XBN4TZRP5OHakDMaVpDATIueDLWtZdk9dEF96CN+snkIjTWfNAtQSxDw=="/>
         </item>
         <item>
             <title>0.0.4</title>
@@ -72,6 +76,6 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: SDfBA5NM6Q0wmiYTAcp9G6xIx5Mti98cnVPHn0kt6Hfy+3x7AyJSx069iHGhUz77lPYXSir4iC8/spCWy7YyAw==
-length: 4670
+edSignature: kEH3xNIjFbH3/XiPlslGlPv+n/jQE1bMV0Y6quBG8G4IkqVcrQp0cCOf97xVWuDNq+YaUEWn0+ijptBrgDMkDw==
+length: 4728
 -->

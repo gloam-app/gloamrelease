@@ -14,6 +14,10 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
 - Settings is a sibling screen with no Back control.
 
+### Fixed
+
+- Live wallpapers loop without a visible cut.
+
 ### Download
 
 [Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg)
