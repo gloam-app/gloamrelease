@@ -12,9 +12,9 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Fixed
 
-- The current-wallpaper card in System Settings shows your scene instead of a grainy, blown-out copy of it.
-- Wallpaper previews in System Settings are sharp 4K posters instead of an upscaled 1080p JPEG.
+- System Settings shows your scene sharply: the current-wallpaper card is no longer blown out, and the grid uses 4K posters.
 - Scenes staged by an earlier version are re-encoded once, the first time you set them again.
+- In the slideshow editor, Fill Screen no longer spills the photo out of its card, and switching framing no longer moves the controls you just clicked.
 
 ### Download
 

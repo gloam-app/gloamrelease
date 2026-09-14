@@ -23,9 +23,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 ### Fixed
 
-- The current-wallpaper card in System Settings shows your scene instead of a grainy, blown-out copy of it.
-- Wallpaper previews in System Settings are sharp 4K posters instead of an upscaled 1080p JPEG.
+- System Settings shows your scene sharply: the current-wallpaper card is no longer blown out, and the grid uses 4K posters.
 - Scenes staged by an earlier version are re-encoded once, the first time you set them again.
+- In the slideshow editor, Fill Screen no longer spills the photo out of its card, and switching framing no longer moves the controls you just clicked.
 
 ### Learn more
 
@@ -33,7 +33,7 @@ https://gloamapp.thegaragelabs.cc
 
 Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4414187" type="application/octet-stream" sparkle:edSignature="XFzXpmUgQDT56xTHUK9QWYrLoGTgPuOHznTuZaU60uV5KozLgmuSSdbd8pYsVzqQp//YqTiVNR62O01wHMyuCQ=="/>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4417541" type="application/octet-stream" sparkle:edSignature="Bkr44j6u1xIa/M4jAkVSsJWRI3H5eb+wrqvNlneb3nbw9v6sz6iNrfOlORuhQDL4vEGoh+S7NXXceb6bRZEECQ=="/>
         </item>
         <item>
             <title>0.0.4</title>
@@ -74,6 +74,6 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ijAAud+aYWTyqRiCX+w04WuQpJDMMa5HaamCXJSFko1MLedjs/jKXeJhz6SFXII0wBXukT0DYQR31zJwVX8jAQ==
-length: 4884
+edSignature: ShSXnlnYyVHskqoDurQDNo50pIt2MH4YeyfoO97qhpavwWIqaLGqDk1Zb+qtfNWTXFq0+JXhrUu4SOrhEX+WCA==
+length: 4957
 -->
