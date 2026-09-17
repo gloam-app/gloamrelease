@@ -2,7 +2,7 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-14
+## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-17
 
 ### Added
 
@@ -11,13 +11,13 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 ### Changed
 
 - Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
-- New live scenes look as rich on the desktop as they do on the lock screen.
-- Switching scenes fades on the desktop.
+- Switching scenes fades on the desktop, with richer video on desktop and lock screen.
 - Settings can turn off GPU desktop playback to save power.
 
 ### Fixed
 
-- Live wallpapers loop without a visible cut.
+- Live wallpapers loop without a visible cut and keep playing after long idle.
+- Gloam pauses below 20% battery only when you're unplugged.
 
 ### Download
 

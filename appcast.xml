@@ -22,13 +22,13 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ### Changed
 
 - Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
-- New live scenes look as rich on the desktop as they do on the lock screen.
-- Switching scenes fades on the desktop.
+- Switching scenes fades on the desktop, with richer video on desktop and lock screen.
 - Settings can turn off GPU desktop playback to save power.
 
 ### Fixed
 
-- Live wallpapers loop without a visible cut.
+- Live wallpapers loop without a visible cut and keep playing after long idle.
+- Gloam pauses below 20% battery only when you're unplugged.
 
 ### Learn more
 
@@ -36,7 +36,7 @@ https://gloamapp.thegaragelabs.cc
 
 Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4552409" type="application/octet-stream" sparkle:edSignature="+V+xUnQNeUGAFjlNuT8FzlLi7hFaJYq6nah+tTEzDcb+u3fiQyVjqOi+ztXCB/HXj68sGdpBdpwvn4iW8H3ABw=="/>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4499209" type="application/octet-stream" sparkle:edSignature="ncQVshfn+ykd1dRnePJAWUaHMDx8EE1Pv9AmWvePuduEDTgvNNNlnRhs3F3MUnBT0uSv/lmiHJjpWKmO9MtOAg=="/>
         </item>
         <item>
             <title>0.0.4</title>
@@ -77,6 +77,6 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Rk2rH5o10DcKQAEftOIlLeIZKDzBCzrzPrveap5k664S0++POvmD8/WLEhPXixj0wqVRrd5zVzZ690e79PPWAA==
-length: 4749
+edSignature: Y+0t4u11IROu8o/4yxv2ln8+HoUvOfSx57P4kEoy1XXX4UBaGgs/LgrHQ6fujq2FZ8Oy8aA89EqZKQqrcK+/Cw==
+length: 4812
 -->
