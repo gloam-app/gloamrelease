@@ -17,18 +17,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 ### Added
 
-- Set a scene on Desktop, Lock Screen, or Both, like on iPhone. Auto mode only changes the desktop.
+- Set a scene on Desktop, Lock Screen, or Both; Auto mode only changes the desktop.
+- Import adds videos to My Scenes with a New badge, without changing your wallpaper.
 
 ### Changed
 
 - Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
-- Settings can turn off GPU desktop playback to save power.
+- Faster launch, smoother scene browsing, and quicker switches on multi-display Macs.
 
 ### Fixed
 
-- Short clips play when you pick them, without a black screen or a stuck switch.
-- Gloam tells you a scene is ready only after the desktop or lock screen has actually changed.
-- Live wallpapers loop smoothly and keep playing through idle, sleep, and unlock.
+- Live wallpapers play the full clip and loop smoothly, including short scenes.
+- Quitting Gloam restores Apple's default desktop wallpaper and screen saver.
 
 ### Learn more
 
@@ -36,7 +36,7 @@ https://gloamapp.thegaragelabs.cc
 
 Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4597118" type="application/octet-stream" sparkle:edSignature="ybUML8wssaVjAIZNcm3N3d+JHqamLeg5pf32EtQXLXpS92DS1ShW+2GWG1yhXihJPDjeX/c7QkH+qwwbPkynDg=="/>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4638434" type="application/octet-stream" sparkle:edSignature="EIIEHQwlG043qHXOHFU3hE40YdnXSff3o5BRa1xZY0JhQOpmkWIxVn+Qer6fnsZY0lWq/ZNHpJCr3MflhYHyBQ=="/>
         </item>
         <item>
             <title>0.0.4</title>
@@ -77,6 +77,6 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: nDG9V805s5H5ZBV/HccbReS4ZU2Vbt4E23LeWcOptJSD9ctcMR8Gk5Omm/Z2ewIwmNUPKapf+jjg7gPwW/NQCA==
-length: 4843
+edSignature: p/cMEia5r9JJOlEebO5+/+7q3YY321JFRDROn+A0J5igTkEX2hPOhO8afJLagTy16bh+oIdTVhnCgXZDWOO5CA==
+length: 4838
 -->

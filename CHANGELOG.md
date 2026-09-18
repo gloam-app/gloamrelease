@@ -6,18 +6,18 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Added
 
-- Set a scene on Desktop, Lock Screen, or Both, like on iPhone. Auto mode only changes the desktop.
+- Set a scene on Desktop, Lock Screen, or Both; Auto mode only changes the desktop.
+- Import adds videos to My Scenes with a New badge, without changing your wallpaper.
 
 ### Changed
 
 - Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
-- Settings can turn off GPU desktop playback to save power.
+- Faster launch, smoother scene browsing, and quicker switches on multi-display Macs.
 
 ### Fixed
 
-- Short clips play when you pick them, without a black screen or a stuck switch.
-- Gloam tells you a scene is ready only after the desktop or lock screen has actually changed.
-- Live wallpapers loop smoothly and keep playing through idle, sleep, and unlock.
+- Live wallpapers play the full clip and loop smoothly, including short scenes.
+- Quitting Gloam restores Apple's default desktop wallpaper and screen saver.
 
 ### Download
 
