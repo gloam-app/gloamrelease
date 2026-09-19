@@ -27,8 +27,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 ### Fixed
 
-- Live wallpapers play the full clip and loop smoothly, including short scenes.
-- Quitting Gloam restores Apple's default desktop wallpaper and screen saver.
+- Live wallpapers play the full clip and loop smoothly, and resume on your desktop after sleep and unlock.
+- Quitting Gloam restores Apple's default wallpaper and screen saver; confirmation waits until the scene is visible.
 
 ### Learn more
 
@@ -36,7 +36,7 @@ https://gloamapp.thegaragelabs.cc
 
 Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4638434" type="application/octet-stream" sparkle:edSignature="EIIEHQwlG043qHXOHFU3hE40YdnXSff3o5BRa1xZY0JhQOpmkWIxVn+Qer6fnsZY0lWq/ZNHpJCr3MflhYHyBQ=="/>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4644744" type="application/octet-stream" sparkle:edSignature="UbbpVPf4JiyrmdqSIqvx3G/LfIEjQHMiPKSnChOfdkbvv8FIZ955F4kCFZ8K3oZXYQYFg4pklvOz8LNInr/CBg=="/>
         </item>
         <item>
             <title>0.0.4</title>
@@ -77,6 +77,6 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: p/cMEia5r9JJOlEebO5+/+7q3YY321JFRDROn+A0J5igTkEX2hPOhO8afJLagTy16bh+oIdTVhnCgXZDWOO5CA==
-length: 4838
+edSignature: 1PIIMlYOMQ2lib89EhVYEWtuH+BHKet9FYAF0DDHtC1UAYBy/g3k5ebX+6ztADmib2i4LDDw2zzYQbGKQvwQCA==
+length: 4904
 -->

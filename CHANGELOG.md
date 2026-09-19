@@ -16,8 +16,8 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Fixed
 
-- Live wallpapers play the full clip and loop smoothly, including short scenes.
-- Quitting Gloam restores Apple's default desktop wallpaper and screen saver.
+- Live wallpapers play the full clip and loop smoothly, and resume on your desktop after sleep and unlock.
+- Quitting Gloam restores Apple's default wallpaper and screen saver; confirmation waits until the scene is visible.
 
 ### Download
 
