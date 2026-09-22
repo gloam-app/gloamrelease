@@ -7,6 +7,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Gloam</title>
         <item>
             <title>0.0.5</title>
+            <pubDate>Mon, 21 Sep 2026 23:29:52 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.5
+
+### Added
+
+- Import a video from a URL straight into My Scenes.
+- Collections group your scenes; filter by collection and export a scene to share.
+- My Rotation and time-of-day schedules cycle or switch desktop wallpapers automatically.
+
+### Changed
+
+- Set a scene on Desktop, Lock Screen, or Both; Favourites and Recent sit in the browser bar.
+- Ambient volume and weather ambience are in Playback settings; Discover filters moods in place.
+
+### Fixed
+
+- Desktop loops play the full imported clip and resume smoothly after sleep and unlock.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4886164" type="application/octet-stream" sparkle:edSignature="gi+yf7kwNHSMO+s3+/YFMiMd0kaJiIJ1QRLgzsuLgCzn4w/01ggZKuQcX97LdWC9EwFL+R7bUuo74gOISECxCw=="/>
+        </item>
+        <item>
+            <title>0.0.5</title>
             <pubDate>Sun, 13 Sep 2026 22:05:47 -0700</pubDate>
             <link>https://gloamapp.thegaragelabs.cc</link>
             <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
@@ -77,6 +110,6 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 1PIIMlYOMQ2lib89EhVYEWtuH+BHKet9FYAF0DDHtC1UAYBy/g3k5ebX+6ztADmib2i4LDDw2zzYQbGKQvwQCA==
-length: 4904
+edSignature: eYUo1RZmwtmk4DEhF8CrnnO13NYmcg5/W49syIL5u4c5CZ0DFOlNWboDYgNgX9YgjYWxS091wOHBVwCNG/HEAQ==
+length: 6467
 -->

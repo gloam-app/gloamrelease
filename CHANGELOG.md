@@ -2,22 +2,22 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-18
+## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-21
 
 ### Added
 
-- Set a scene on Desktop, Lock Screen, or Both; Auto mode only changes the desktop.
-- Import adds videos to My Scenes with a New badge, without changing your wallpaper.
+- Import a video from a URL straight into My Scenes.
+- Collections group your scenes; filter by collection and export a scene to share.
+- My Rotation and time-of-day schedules cycle or switch desktop wallpapers automatically.
 
 ### Changed
 
-- Discover filters moods in place, and catalog cards set wallpaper the same way as your own scenes.
-- Faster launch, smoother scene browsing, and quicker switches on multi-display Macs.
+- Set a scene on Desktop, Lock Screen, or Both; Favourites and Recent sit in the browser bar.
+- Ambient volume and weather ambience are in Playback settings; Discover filters moods in place.
 
 ### Fixed
 
-- Live wallpapers play the full clip and loop smoothly, and resume on your desktop after sleep and unlock.
-- Quitting Gloam restores Apple's default wallpaper and screen saver; confirmation waits until the scene is visible.
+- Desktop loops play the full imported clip and resume smoothly after sleep and unlock.
 
 ### Download
 
