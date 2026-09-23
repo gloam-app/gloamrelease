@@ -6,14 +6,14 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Added
 
-- Import from URL, collections, rotation, and time-of-day schedules for your desktop.
-- Discover filters and My Scenes sort; shuffle and skip in My Rotation.
-- Different desktop scenes per display; Gloam Picks curated row in Discover.
+- Timed schedules with start and end windows, a default wallpaper, and Desktop, Lock, or Both per entry.
+- Gloam Picks shows five popular Discover clips that refresh each week.
+- Import from URL, collections, rotation, and Discover filters; shuffle and skip in My Rotation.
 
 ### Changed
 
-- Desktop tab shows matching desktop and lock banners and your recently used scenes.
-- Set Desktop, Lock, or Both; Favourites and Recent live in the browser bar.
+- Desktop tab shows default and schedule status, plus matching desktop and lock banners.
+- Set Desktop, Lock, or Both; Favourites, Recent, and collection chips stay on the Desktop tab.
 
 ### Fixed
 
