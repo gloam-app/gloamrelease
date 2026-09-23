@@ -7,6 +7,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Gloam</title>
         <item>
             <title>0.0.5</title>
+            <pubDate>Wed, 23 Sep 2026 15:16:42 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.5
+
+### Added
+
+- Timed schedules with start and end windows, a default wallpaper, and Desktop, Lock, or Both per entry.
+- Gloam Picks shows five popular Discover clips that refresh each week.
+- Import from URL, collections, rotation, and Discover filters; shuffle and skip in My Rotation.
+
+### Changed
+
+- Desktop tab shows default and schedule status, plus matching desktop and lock banners.
+- Set Desktop, Lock, or Both; Favourites, Recent, and collection chips stay on the Desktop tab.
+
+### Fixed
+
+- New clears once you set a scene; loops resume smoothly after sleep and unlock.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="5145962" type="application/octet-stream" sparkle:edSignature="MAKihlBiWAoNDPAHyiMvemaw4pccVt4sc4eYCkQV5UZ452/GVF0p3fthcuvNJvQGqZHhrWchOv9ar84Wll22BQ=="/>
+        </item>
+        <item>
+            <title>0.0.5</title>
             <pubDate>Wed, 23 Sep 2026 14:32:42 -0700</pubDate>
             <link>https://gloamapp.thegaragelabs.cc</link>
             <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
@@ -71,42 +104,9 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
             <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="5158439" type="application/octet-stream" sparkle:edSignature="/J9U8CxJgAqnz9O1hMLBXtn+NS/qMTYF5BSmDTwerOo6+rGX3HzJs1p/AfmrGSWDKtbCnl8G0wi1LI82WR0oBA=="/>
         </item>
-        <item>
-            <title>0.0.5</title>
-            <pubDate>Wed, 23 Sep 2026 10:19:24 -0700</pubDate>
-            <link>https://gloamapp.thegaragelabs.cc</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.5
-
-### Added
-
-- Import from URL, collections, rotation, and time-of-day schedules for your desktop.
-- Discover filters and My Scenes sort; shuffle and skip in My Rotation.
-- Different desktop scenes per display; Gloam Picks curated row in Discover.
-
-### Changed
-
-- Desktop tab shows matching desktop and lock banners and your recently used scenes.
-- Set Desktop, Lock, or Both; Favourites and Recent live in the browser bar.
-
-### Fixed
-
-- New clears once you set a scene; loops resume smoothly after sleep and unlock.
-
-### Learn more
-
-https://gloamapp.thegaragelabs.cc
-
-Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
-]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="5066340" type="application/octet-stream" sparkle:edSignature="4i0qln937zfEFKZ8bV9BnzvKVl6Lob4LQdncJLQGrpOm+LRxB9Vz4uNWSlW1/QvB8NqkSmL8AcJIGt+FWPiOCw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: hob0/y5PZ2bgS6Ck4QZ7J4JwDd1jUcFTJu35waOccrFzZa0a27jO6yWk6SOqPh+qRYMenHI8BweFyVF/lom9BA==
-length: 5161
+edSignature: J1QHvBrcdDQcn3tFWGS9Q5MFCHhrb3o6u9d+Ro/1mgSETbDgSR9TSggSnA3ATFIXGUfTVjw1iVmth5hevojQDg==
+length: 5224
 -->
