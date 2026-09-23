@@ -7,6 +7,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Gloam</title>
         <item>
             <title>0.0.5</title>
+            <pubDate>Wed, 23 Sep 2026 10:19:24 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.5
+
+### Added
+
+- Import from URL, collections, rotation, and time-of-day schedules for your desktop.
+- Discover filters and My Scenes sort; shuffle and skip in My Rotation.
+- Different desktop scenes per display; Gloam Picks curated row in Discover.
+
+### Changed
+
+- Desktop tab shows matching desktop and lock banners and your recently used scenes.
+- Set Desktop, Lock, or Both; Favourites and Recent live in the browser bar.
+
+### Fixed
+
+- New clears once you set a scene; loops resume smoothly after sleep and unlock.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="5066340" type="application/octet-stream" sparkle:edSignature="4i0qln937zfEFKZ8bV9BnzvKVl6Lob4LQdncJLQGrpOm+LRxB9Vz4uNWSlW1/QvB8NqkSmL8AcJIGt+FWPiOCw=="/>
+        </item>
+        <item>
+            <title>0.0.5</title>
             <pubDate>Mon, 21 Sep 2026 23:29:52 -0700</pubDate>
             <link>https://gloamapp.thegaragelabs.cc</link>
             <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
@@ -71,45 +104,9 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
             <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="4644744" type="application/octet-stream" sparkle:edSignature="UbbpVPf4JiyrmdqSIqvx3G/LfIEjQHMiPKSnChOfdkbvv8FIZ955F4kCFZ8K3oZXYQYFg4pklvOz8LNInr/CBg=="/>
         </item>
-        <item>
-            <title>0.0.4</title>
-            <pubDate>Tue, 08 Sep 2026 22:30:00 -0700</pubDate>
-            <link>https://gloamapp.thegaragelabs.cc</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.4
-
-### Added
-
-- Gloam can check for updates from the menu bar or Settings, verify a signed update, and install it without making you replace the app by hand. Sparkle asks before enabling its daily checks and always asks before installing.
-- Saved photo slideshows now have one editor where you can see every photo, add or remove photos, reorder them, and change timing or framing before saving.
-
-### Changed
-
-- Cards, Discover downloads, and the menu-bar popover now match what they actually do: click sets wallpaper, details stay on the scene you just applied, downloaded clips can be set from Discover, and Pause stays in sync when playback stops.
-- Creating and editing a photo slideshow uses a photo board: a large preview, a wrapping grid, and drag-to-reorder, instead of a sideways filmstrip with arrow buttons. The sheet grows with the number of photos rather than leaving empty space, and stays within the screen it opens on.
-- My Scenes (⌘3), Pause or Resume (⌘P), and Scene Details (⌘I) now have keyboard shortcuts, a search you have typed follows you from your library into Discover instead of being cleared, and opening a Settings category scrolls to it.
-- First-run setup now asks you to pick a first wallpaper rather than applying one for you, and confirms before you skip setup.
-- Downloaded Discover scenes appear in My Scenes as soon as they are saved. Lock-screen preparation continues in the background instead of delaying the download result.
-- Settings now shows the size of disposable downloads before clearing them, asks for confirmation, and confirms what was removed. My Scenes, installed bundles, and slideshow photos are never cache-cleanup targets.
-
-### Fixed
-
-- Live wallpaper windows now follow every Mission Control desktop on a display, including Desktops added after Gloam starts.
-
-### Learn more
-
-https://gloamapp.thegaragelabs.cc
-
-Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
-]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.4/Gloam.dmg" length="4394158" type="application/octet-stream" sparkle:edSignature="h1ZyR9VjM9NBGsB+nMu9BRMy5GFFDRpd2pn39hmKFFjCJAa/qGPSMBznGq9FHVtegjskkDwf++gxngPstUqEDA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: eYUo1RZmwtmk4DEhF8CrnnO13NYmcg5/W49syIL5u4c5CZ0DFOlNWboDYgNgX9YgjYWxS091wOHBVwCNG/HEAQ==
-length: 6467
+edSignature: ianRwn+68KdeKp0UfMRTfZnXI7up9v3R6N9XijxYXI1T6SKHQy6LrbYVOWFvdes4lcodln5R4oVwHAj8u4E0AA==
+length: 5165
 -->

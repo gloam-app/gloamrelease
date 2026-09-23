@@ -2,22 +2,22 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-21
+## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-23
 
 ### Added
 
-- Import a video from a URL straight into My Scenes.
-- Collections group your scenes; filter by collection and export a scene to share.
-- My Rotation and time-of-day schedules cycle or switch desktop wallpapers automatically.
+- Import from URL, collections, rotation, and time-of-day schedules for your desktop.
+- Discover filters and My Scenes sort; shuffle and skip in My Rotation.
+- Different desktop scenes per display; Gloam Picks curated row in Discover.
 
 ### Changed
 
-- Set a scene on Desktop, Lock Screen, or Both; Favourites and Recent sit in the browser bar.
-- Ambient volume and weather ambience are in Playback settings; Discover filters moods in place.
+- Desktop tab shows matching desktop and lock banners and your recently used scenes.
+- Set Desktop, Lock, or Both; Favourites and Recent live in the browser bar.
 
 ### Fixed
 
-- Desktop loops play the full imported clip and resume smoothly after sleep and unlock.
+- New clears once you set a scene; loops resume smoothly after sleep and unlock.
 
 ### Download
 
