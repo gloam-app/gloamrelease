@@ -2,22 +2,22 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-23
+## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-26
 
 ### Added
 
-- Timed schedules with start and end windows, a default wallpaper, and Desktop, Lock, or Both per entry.
-- Gloam Picks shows five popular Discover clips that refresh each week.
-- Import from URL, collections, rotation, and Discover filters; shuffle and skip in My Rotation.
+- Timed schedules with a default wallpaper, and Gloam Picks — five popular Discover clips that refresh weekly.
+- Import from a URL, collections, rotation, and full keyboard and VoiceOver support for browsing and picking wallpapers.
 
 ### Changed
 
-- Desktop tab shows default and schedule status, plus matching desktop and lock banners.
-- Set Desktop, Lock, or Both; Favourites, Recent, and collection chips stay on the Desktop tab.
+- Desktop tab shows default and schedule status; set Desktop, Lock, or Both from Favourites, Recent, or a collection.
+- Menu bar shows what's next for a scheduled wallpaper, not just Auto, and Settings' Privacy tab explains what Discover and weather send.
 
 ### Fixed
 
-- New clears once you set a scene; loops resume smoothly after sleep and unlock.
+- New clears once you set a scene; loops resume smoothly after sleep and unlock, and Game Mode pause works again.
+- Clear, human error messages when a video or slideshow fails to process, instead of raw technical text.
 
 ### Download
 
