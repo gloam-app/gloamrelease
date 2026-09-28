@@ -2,7 +2,7 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-26
+## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-28
 
 ### Added
 
@@ -17,7 +17,7 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 ### Fixed
 
 - New clears once you set a scene; loops resume smoothly after sleep and unlock, and Game Mode pause works again.
-- Clear, human error messages when a video or slideshow fails to process, instead of raw technical text.
+- Clear error messages when a video or slideshow fails, plus safer URL and bundle imports (https only, size limits).
 
 ### Download
 
