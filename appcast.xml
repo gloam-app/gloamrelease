@@ -6,6 +6,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Gloam</title>
         <item>
+            <title>0.0.7</title>
+            <pubDate>Tue, 29 Sep 2026 09:14:18 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.7
+
+### Added
+
+- Import videos with ⌘O, from a URL, or by dropping files anywhere in the window, with per-file progress and a Stop button.
+- Rename or delete collections, and replay the welcome tour from the Help menu.
+
+### Changed
+
+- Buttons and text are easier to read, and Increase Contrast, Reduce Motion, VoiceOver and keyboard shortcuts now work across the app.
+- Lock screen video uses less CPU and memory, and no longer stalls your Mac when locking, sleeping, or waking.
+
+### Fixed
+
+- A damaged library or schedule file is backed up instead of wiped, and broken videos are rejected with a clear message.
+- Schedules switch cleanly between windows, rotation resumes afterwards, and sunrise times stay right after sleep or travel.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.7/Gloam.dmg" length="5814880" type="application/octet-stream" sparkle:edSignature="AjBUui+XEGtdRtlsiNGOG6Q1MNTHuENtos/kw47b4zgN5EcPZOp6m5lyMKm1kmK94UaNdurOn/kcSRWeMRLxAQ=="/>
+        </item>
+        <item>
             <title>0.0.6</title>
             <pubDate>Mon, 28 Sep 2026 21:08:47 -0700</pubDate>
             <link>https://gloamapp.thegaragelabs.cc</link>
@@ -71,42 +104,9 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
             <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="5373997" type="application/octet-stream" sparkle:edSignature="6uTjve6GQ4mqpFZHriBascQ69niPu9smqOpmrO/NLrvwHxUD/3eqaBiHyoLxWuHFuXiaD9M+fYLNyRpaT1Y7AA=="/>
         </item>
-        <item>
-            <title>0.0.5</title>
-            <pubDate>Sat, 26 Sep 2026 23:49:00 -0700</pubDate>
-            <link>https://gloamapp.thegaragelabs.cc</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.5
-
-### Added
-
-- Timed schedules with a default wallpaper, and Gloam Picks — five popular Discover clips that refresh weekly.
-- Import from a URL, collections, rotation, and full keyboard and VoiceOver support for browsing and picking wallpapers.
-
-### Changed
-
-- Desktop tab shows default and schedule status; set Desktop, Lock, or Both from Favourites, Recent, or a collection.
-- Menu bar shows what's next for a scheduled wallpaper, not just Auto, and Settings' Privacy tab explains what Discover and weather send.
-
-### Fixed
-
-- New clears once you set a scene; loops resume smoothly after sleep and unlock, and Game Mode pause works again.
-- Clear, human error messages when a video or slideshow fails to process, instead of raw technical text.
-
-### Learn more
-
-https://gloamapp.thegaragelabs.cc
-
-Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
-]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="5374075" type="application/octet-stream" sparkle:edSignature="4aep0Jp4REL8aKfRNZxOD/+fMoqnkredsSz48Rs0xc/qgZ9N4OVCx9/adjErbZ0S8f6QRfLPtp6sGAH55FvXAA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: H80UU5Dxzp4D/VEEeGZGEApi3sVHun1qbvgHoOztosIZToitbZjlmhjel82JcQer+1pjGPzbC+ZMDMQxYOu0AQ==
-length: 5614
+edSignature: Ldn0rDif52cXpydZzWi9JnhlqwRWwtApukOwvwKmi7aIJbb2EpazSvfw0Pc2k6aKJ6ycDhIxoJZp0T6DssndBA==
+length: 5603
 -->

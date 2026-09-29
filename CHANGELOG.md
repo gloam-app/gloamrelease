@@ -2,6 +2,27 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [0.0.7](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.7) — 2026-09-29
+
+### Added
+
+- Import videos with ⌘O, from a URL, or by dropping files anywhere in the window, with per-file progress and a Stop button.
+- Rename or delete collections, and replay the welcome tour from the Help menu.
+
+### Changed
+
+- Buttons and text are easier to read, and Increase Contrast, Reduce Motion, VoiceOver and keyboard shortcuts now work across the app.
+- Lock screen video uses less CPU and memory, and no longer stalls your Mac when locking, sleeping, or waking.
+
+### Fixed
+
+- A damaged library or schedule file is backed up instead of wiped, and broken videos are rejected with a clear message.
+- Schedules switch cleanly between windows, rotation resumes afterwards, and sunrise times stay right after sleep or travel.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.7/Gloam.dmg)
+
 ## [0.0.6](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.6) — 2026-09-28
 
 ### Added
