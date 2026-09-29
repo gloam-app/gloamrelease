@@ -12,7 +12,7 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 ### Changed
 
 - Buttons and text are easier to read, and Increase Contrast, Reduce Motion, VoiceOver and keyboard shortcuts now work across the app.
-- Lock screen video uses less CPU and memory, and no longer stalls your Mac when locking, sleeping, or waking.
+- Lock screen video uses less CPU and memory, no longer stalls your Mac on lock, sleep or wake, and no longer flashes over the desktop on unlock.
 
 ### Fixed
 

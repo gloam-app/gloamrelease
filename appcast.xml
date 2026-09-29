@@ -7,6 +7,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Gloam</title>
         <item>
             <title>0.0.7</title>
+            <pubDate>Tue, 29 Sep 2026 10:11:39 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.7
+
+### Added
+
+- Import videos with ⌘O, from a URL, or by dropping files anywhere in the window, with per-file progress and a Stop button.
+- Rename or delete collections, and replay the welcome tour from the Help menu.
+
+### Changed
+
+- Buttons and text are easier to read, and Increase Contrast, Reduce Motion, VoiceOver and keyboard shortcuts now work across the app.
+- Lock screen video uses less CPU and memory, no longer stalls your Mac on lock, sleep or wake, and no longer flashes over the desktop on unlock.
+
+### Fixed
+
+- A damaged library or schedule file is backed up instead of wiped, and broken videos are rejected with a clear message.
+- Schedules switch cleanly between windows, rotation resumes afterwards, and sunrise times stay right after sleep or travel.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.7/Gloam.dmg" length="5816061" type="application/octet-stream" sparkle:edSignature="U/1EGC5DdqQqsAdrZz0Y9H2NcdySUWj9UWV2Cj4MqM/5rqcuIjyiA7rCNWWHAKnxahBojtML4S7/UVvbfwX+CA=="/>
+        </item>
+        <item>
+            <title>0.0.7</title>
             <pubDate>Tue, 29 Sep 2026 09:14:18 -0700</pubDate>
             <link>https://gloamapp.thegaragelabs.cc</link>
             <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
@@ -71,42 +104,9 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
             <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.6/Gloam.dmg" length="5539933" type="application/octet-stream" sparkle:edSignature="GHnLwrUKEvZyXLMHDFnO4TE+nuGkkYb9CbEL9y7JDuqbf/8a2E/zYq/+vEzpJimojqCWbGxDSTZh69sAKw6GDQ=="/>
         </item>
-        <item>
-            <title>0.0.5</title>
-            <pubDate>Mon, 28 Sep 2026 16:33:41 -0700</pubDate>
-            <link>https://gloamapp.thegaragelabs.cc</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.5
-
-### Added
-
-- Timed schedules with a default wallpaper, and Gloam Picks — five popular Discover clips that refresh weekly.
-- Import from a URL, collections, rotation, and full keyboard and VoiceOver support for browsing and picking wallpapers.
-
-### Changed
-
-- Desktop tab shows default and schedule status; set Desktop, Lock, or Both from Favourites, Recent, or a collection.
-- Menu bar shows what's next for a scheduled wallpaper, not just Auto, and Settings' Privacy tab explains what Discover and weather send.
-
-### Fixed
-
-- New clears once you set a scene; loops resume smoothly after sleep and unlock, and Game Mode pause works again.
-- Clear error messages when a video or slideshow fails, plus safer URL and bundle imports (https only, size limits).
-
-### Learn more
-
-https://gloamapp.thegaragelabs.cc
-
-Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
-]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="5373997" type="application/octet-stream" sparkle:edSignature="6uTjve6GQ4mqpFZHriBascQ69niPu9smqOpmrO/NLrvwHxUD/3eqaBiHyoLxWuHFuXiaD9M+fYLNyRpaT1Y7AA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Ldn0rDif52cXpydZzWi9JnhlqwRWwtApukOwvwKmi7aIJbb2EpazSvfw0Pc2k6aKJ6ycDhIxoJZp0T6DssndBA==
-length: 5603
+edSignature: cLVq1j8oTfBHe8357RDDURj1NUGrRYqxbNJvrO8Ep3ATimqCvXncolB0XPOiupDWI0o6RANr774pltPlZLl+AQ==
+length: 5615
 -->
