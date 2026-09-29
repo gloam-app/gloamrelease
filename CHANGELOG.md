@@ -2,6 +2,27 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [0.0.6](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.6) — 2026-09-28
+
+### Added
+
+- Give each display its own scene, and see what Gloam stores in Settings, with a Remove button for each.
+
+### Changed
+
+- Discover clips credit their creator with links, and can no longer be shared as .gloam files.
+- Ambient sounds are removed, and playback pauses behind full-screen apps and eases off on battery or when warm.
+- Lock screen video is marked beta on macOS 14 and 15.
+
+### Fixed
+
+- Auto now works at launch and after sleep, holds a scene you pick until things change, and says when nothing fits.
+- Updates find you: Gloam checks every hour and shows a new version in front of your windows.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.6/Gloam.dmg)
+
 ## [0.0.5](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.5) — 2026-09-28
 
 ### Added

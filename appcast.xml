@@ -6,6 +6,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Gloam</title>
         <item>
+            <title>0.0.6</title>
+            <pubDate>Mon, 28 Sep 2026 21:08:47 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.6
+
+### Added
+
+- Give each display its own scene, and see what Gloam stores in Settings, with a Remove button for each.
+
+### Changed
+
+- Discover clips credit their creator with links, and can no longer be shared as .gloam files.
+- Ambient sounds are removed, and playback pauses behind full-screen apps and eases off on battery or when warm.
+- Lock screen video is marked beta on macOS 14 and 15.
+
+### Fixed
+
+- Auto now works at launch and after sleep, holds a scene you pick until things change, and says when nothing fits.
+- Updates find you: Gloam checks every hour and shows a new version in front of your windows.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.6/Gloam.dmg" length="5539933" type="application/octet-stream" sparkle:edSignature="GHnLwrUKEvZyXLMHDFnO4TE+nuGkkYb9CbEL9y7JDuqbf/8a2E/zYq/+vEzpJimojqCWbGxDSTZh69sAKw6GDQ=="/>
+        </item>
+        <item>
             <title>0.0.5</title>
             <pubDate>Mon, 28 Sep 2026 16:33:41 -0700</pubDate>
             <link>https://gloamapp.thegaragelabs.cc</link>
@@ -71,42 +104,9 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
             <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="5374075" type="application/octet-stream" sparkle:edSignature="4aep0Jp4REL8aKfRNZxOD/+fMoqnkredsSz48Rs0xc/qgZ9N4OVCx9/adjErbZ0S8f6QRfLPtp6sGAH55FvXAA=="/>
         </item>
-        <item>
-            <title>0.0.5</title>
-            <pubDate>Wed, 23 Sep 2026 15:16:42 -0700</pubDate>
-            <link>https://gloamapp.thegaragelabs.cc</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.5
-
-### Added
-
-- Timed schedules with start and end windows, a default wallpaper, and Desktop, Lock, or Both per entry.
-- Gloam Picks shows five popular Discover clips that refresh each week.
-- Import from URL, collections, rotation, and Discover filters; shuffle and skip in My Rotation.
-
-### Changed
-
-- Desktop tab shows default and schedule status, plus matching desktop and lock banners.
-- Set Desktop, Lock, or Both; Favourites, Recent, and collection chips stay on the Desktop tab.
-
-### Fixed
-
-- New clears once you set a scene; loops resume smoothly after sleep and unlock.
-
-### Learn more
-
-https://gloamapp.thegaragelabs.cc
-
-Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
-]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.5/Gloam.dmg" length="5145962" type="application/octet-stream" sparkle:edSignature="MAKihlBiWAoNDPAHyiMvemaw4pccVt4sc4eYCkQV5UZ452/GVF0p3fthcuvNJvQGqZHhrWchOv9ar84Wll22BQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: S8/uOqqJyUxJJUGQG//2w3MOk7+Tp2/c/48OE3ttJ6rAk+3H5/0HatG5dVc144Fr9pNuSZErpfDuwgH+shKhDQ==
-length: 5576
+edSignature: H80UU5Dxzp4D/VEEeGZGEApi3sVHun1qbvgHoOztosIZToitbZjlmhjel82JcQer+1pjGPzbC+ZMDMQxYOu0AQ==
+length: 5614
 -->
