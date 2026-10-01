@@ -2,7 +2,7 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.7](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.7) — 2026-09-29
+## [0.0.7](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.7) — 2026-10-01
 
 ### Added
 
@@ -11,13 +11,13 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 ### Changed
 
-- Buttons and text are easier to read, and Increase Contrast, Reduce Motion, VoiceOver and keyboard shortcuts now work across the app.
-- Lock screen video no longer stalls your Mac when locking, sleeping or waking, and recovers if an unlock is ever missed.
+- Settings is shorter, with rarely used options under Advanced, and screens fit and read better at small window sizes.
+- Better contrast, plus Increase Contrast, Reduce Motion, VoiceOver, and keyboard support across the app, with clearer wording.
 
 ### Fixed
 
 - A damaged library or schedule file is backed up instead of wiped, and broken videos are rejected with a clear message.
-- Schedules switch cleanly between windows, rotation resumes afterwards, and sunrise times stay right after sleep or travel.
+- Lock screen video no longer stalls your Mac on lock, sleep or wake, and schedules switch cleanly with rotation resuming afterwards.
 
 ### Download
 
