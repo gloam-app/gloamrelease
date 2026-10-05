@@ -2,6 +2,16 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [0.0.8](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.8) — 2026-10-05
+
+### Changed
+
+- Gloam now says when low battery is holding playback, showing your charge and your limit, and hides that limit on Macs without a battery.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.8/Gloam.dmg)
+
 ## [0.0.7](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.7) — 2026-10-01
 
 ### Added
