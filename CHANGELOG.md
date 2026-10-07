@@ -2,6 +2,16 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
+## [0.0.9](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.9) — 2026-10-07
+
+### Changed
+
+- Gloam is now Yuyake. The name, menus, and permission prompts changed; your scenes, schedules, and settings stay where they are.
+
+### Download
+
+[Gloam.dmg](https://github.com/gloam-app/gloamrelease/releases/download/v0.0.9/Gloam.dmg)
+
 ## [0.0.8](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.8) — 2026-10-05
 
 ### Changed
