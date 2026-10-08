@@ -2,7 +2,7 @@
 
 Release notes for every published Gloam build. Each entry matches a [GitHub Release](https://github.com/gloam-app/gloamrelease/releases).
 
-## [0.0.9](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.9) — 2026-10-07
+## [0.0.9](https://github.com/gloam-app/gloamrelease/releases/tag/v0.0.9) — 2026-10-08
 
 ### Changed
 
@@ -10,6 +10,7 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 - The lock screen help, Full Disk Access steps, and the wallpaper category in System Settings now say Yuyake.
 - New app icon and wordmark: the glow after sunset, drawn as a simple diagram.
 - The app now uses the Zen Kaku Gothic New typeface.
+- Discover now connects through a new server address. Nothing to do on your side.
 
 ### Download
 
