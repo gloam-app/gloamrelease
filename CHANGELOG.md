@@ -8,6 +8,7 @@ Release notes for every published Gloam build. Each entry matches a [GitHub Rele
 
 - Gloam is now Yuyake. The name, menus, and permission prompts changed; your scenes, schedules, and settings stay where they are.
 - The lock screen help, Full Disk Access steps, and the wallpaper category in System Settings now say Yuyake.
+- New app icon and wordmark: the glow after sunset, drawn as a simple diagram.
 
 ### Download
 

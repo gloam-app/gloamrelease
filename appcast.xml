@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Gloam</title>
         <item>
             <title>0.0.9</title>
+            <pubDate>Wed, 07 Oct 2026 18:10:48 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.9
+
+### Changed
+
+- Gloam is now Yuyake. The name, menus, and permission prompts changed; your scenes, schedules, and settings stay where they are.
+- The lock screen help, Full Disk Access steps, and the wallpaper category in System Settings now say Yuyake.
+- New app icon and wordmark: the glow after sunset, drawn as a simple diagram.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.9/Gloam.dmg" length="6041485" type="application/octet-stream" sparkle:edSignature="A1zPI0JUdX3QVYlMNJq8hYA1L1GISH8PD4z7gzy4Aad3pKZoykaT7n69aJMHEA1uMVhROSuVa4JcDPdLx7+/Dw=="/>
+        </item>
+        <item>
+            <title>0.0.9</title>
             <pubDate>Wed, 07 Oct 2026 17:26:11 -0700</pubDate>
             <link>https://gloamapp.thegaragelabs.cc</link>
             <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
@@ -50,31 +74,9 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
             <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.9/Gloam.dmg" length="5966311" type="application/octet-stream" sparkle:edSignature="nznVYGS4tuReVbwCsorxSq3a4GsL2WPOqBIjcQgIgpIfyoHP0bhKBI82Idku6nKXOXeKfay9B14rTg+KL2s+Cg=="/>
         </item>
-        <item>
-            <title>0.0.8</title>
-            <pubDate>Mon, 05 Oct 2026 14:24:19 -0700</pubDate>
-            <link>https://gloamapp.thegaragelabs.cc</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>0.0.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.8
-
-### Changed
-
-- Gloam now says when low battery is holding playback, showing your charge and your limit, and hides that limit on Macs without a battery.
-
-### Learn more
-
-https://gloamapp.thegaragelabs.cc
-
-Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
-]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.8/Gloam.dmg" length="5930820" type="application/octet-stream" sparkle:edSignature="2ITybSGKMTZdk2vUvwarXIf8AKBc6JdLzp0LJUGnP8F2G3QTkOrXtn7W5YjEXOYVz/zoKWb72Cf2ohjFRwrkAw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ZIa0LcCDf3T3wHDNQLv1v8eVqgiUiMgKknoL57hhi97n17GlfMNp36UVYmJ7s9C+HPVBU9cw8bARfRYGIwj+CQ==
-length: 4043
+edSignature: 1jem2si9EuQ3otzNyo5kpGdlJxKddSaXQaAVt8dV+gJSmpnVKr9crma5XO6jsh71OFR8Jn179LAWeqyCqsT0Dw==
+length: 4223
 -->
