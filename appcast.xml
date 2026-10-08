@@ -7,6 +7,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Gloam</title>
         <item>
             <title>0.0.9</title>
+            <pubDate>Wed, 07 Oct 2026 18:46:11 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.9
+
+### Changed
+
+- Gloam is now Yuyake. The name, menus, and permission prompts changed; your scenes, schedules, and settings stay where they are.
+- The lock screen help, Full Disk Access steps, and the wallpaper category in System Settings now say Yuyake.
+- New app icon and wordmark: the glow after sunset, drawn as a simple diagram.
+- The app now uses the Zen Kaku Gothic New typeface.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.9/Gloam.dmg" length="5834207" type="application/octet-stream" sparkle:edSignature="4ki7mG8ICCBKbJD/zTtKz32UctwrhrLHOS7nGEYj3/nGPWa8637VfvDaIY9T58jSu1obynU634ZWbsUmjuxJBw=="/>
+        </item>
+        <item>
+            <title>0.0.9</title>
             <pubDate>Wed, 07 Oct 2026 18:10:48 -0700</pubDate>
             <link>https://gloamapp.thegaragelabs.cc</link>
             <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
@@ -52,31 +77,9 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
             <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.9/Gloam.dmg" length="5884239" type="application/octet-stream" sparkle:edSignature="3IaKLaKC5cqGuJJg9ayoAn1oPHIF0dYj2g0n8YESCXkP1d/OlmN1VE3WngwUyStkzZBDrAlM9bw70QI4CbC4CA=="/>
         </item>
-        <item>
-            <title>0.0.9</title>
-            <pubDate>Wed, 07 Oct 2026 14:31:16 -0700</pubDate>
-            <link>https://gloamapp.thegaragelabs.cc</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>0.0.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.9
-
-### Changed
-
-- Gloam is now Yuyake. The name, menus, and permission prompts changed; your scenes, schedules, and settings stay where they are.
-
-### Learn more
-
-https://gloamapp.thegaragelabs.cc
-
-Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
-]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.9/Gloam.dmg" length="5966311" type="application/octet-stream" sparkle:edSignature="nznVYGS4tuReVbwCsorxSq3a4GsL2WPOqBIjcQgIgpIfyoHP0bhKBI82Idku6nKXOXeKfay9B14rTg+KL2s+Cg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 1jem2si9EuQ3otzNyo5kpGdlJxKddSaXQaAVt8dV+gJSmpnVKr9crma5XO6jsh71OFR8Jn179LAWeqyCqsT0Dw==
-length: 4223
+edSignature: feXPEDAAp4CwPhaJuubyDWeq5i0kvOUXGO740eF6J+yWJIZw4w6V83wVeUuWGzTcAN+n81CbgjjLAfCcIHmdAw==
+length: 4465
 -->
