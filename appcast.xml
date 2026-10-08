@@ -7,6 +7,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Gloam</title>
         <item>
             <title>0.0.9</title>
+            <pubDate>Wed, 07 Oct 2026 17:26:11 -0700</pubDate>
+            <link>https://gloamapp.thegaragelabs.cc</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.9
+
+### Changed
+
+- Gloam is now Yuyake. The name, menus, and permission prompts changed; your scenes, schedules, and settings stay where they are.
+- The lock screen help, Full Disk Access steps, and the wallpaper category in System Settings now say Yuyake.
+
+### Learn more
+
+https://gloamapp.thegaragelabs.cc
+
+Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.9/Gloam.dmg" length="5884239" type="application/octet-stream" sparkle:edSignature="3IaKLaKC5cqGuJJg9ayoAn1oPHIF0dYj2g0n8YESCXkP1d/OlmN1VE3WngwUyStkzZBDrAlM9bw70QI4CbC4CA=="/>
+        </item>
+        <item>
+            <title>0.0.9</title>
             <pubDate>Wed, 07 Oct 2026 14:31:16 -0700</pubDate>
             <link>https://gloamapp.thegaragelabs.cc</link>
             <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
@@ -49,42 +72,9 @@ Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
 ]]></description>
             <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.8/Gloam.dmg" length="5930820" type="application/octet-stream" sparkle:edSignature="2ITybSGKMTZdk2vUvwarXIf8AKBc6JdLzp0LJUGnP8F2G3QTkOrXtn7W5YjEXOYVz/zoKWb72Cf2ohjFRwrkAw=="/>
         </item>
-        <item>
-            <title>0.0.7</title>
-            <pubDate>Thu, 01 Oct 2026 16:23:23 -0700</pubDate>
-            <link>https://gloamapp.thegaragelabs.cc</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>0.0.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Gloam 0.0.7
-
-### Added
-
-- Import videos with ⌘O, from a URL, or by dropping files anywhere in the window, with per-file progress and a Stop button.
-- Rename or delete collections, and replay the welcome tour from the Help menu.
-
-### Changed
-
-- Settings is shorter, with rarely used options under Advanced, and screens fit and read better at small window sizes.
-- Better contrast, plus Increase Contrast, Reduce Motion, VoiceOver, and keyboard support across the app, with clearer wording.
-
-### Fixed
-
-- A damaged library or schedule file is backed up instead of wiped, and broken videos are rejected with a clear message.
-- Lock screen video no longer stalls your Mac on lock, sleep or wake, and schedules switch cleanly with rotation resuming afterwards.
-
-### Learn more
-
-https://gloamapp.thegaragelabs.cc
-
-Full changelog: https://github.com/gloam-app/gloamrelease/blob/main/CHANGELOG.md
-]]></description>
-            <enclosure url="https://github.com/gloam-app/gloamrelease/releases/download/v0.0.7/Gloam.dmg" length="5929289" type="application/octet-stream" sparkle:edSignature="H2IKy/Dyaq/frKtlEVLAwnR1471qreE9BdWa+ODJyWxu3rpwhKJDGboMrzLwejdLH7vk0T1fGj7vgoWB5Zn9AQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: W+SvnMohVft/vO3cY4wJ6OvwOs9N3V/QImis7Q4Z61UUwz4ysOiZEAqwojIxXvbGeQQvzbPpGHe78W2aY9qtBA==
-length: 4535
+edSignature: ZIa0LcCDf3T3wHDNQLv1v8eVqgiUiMgKknoL57hhi97n17GlfMNp36UVYmJ7s9C+HPVBU9cw8bARfRYGIwj+CQ==
+length: 4043
 -->
