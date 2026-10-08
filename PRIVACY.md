@@ -1,3 +1,5 @@
+> This policy now lives at https://pennowick.com/yuyake/privacy/. This file is an offline mirror.
+
 # Gloam Privacy Policy
 
 Effective September 2, 2026
@@ -36,4 +38,4 @@ Local data remains until you delete scenes or remove Gloam’s Application Suppo
 
 For privacy questions, email [support@gloam.app](mailto:support@gloam.app).
 
-The canonical policy lives at [gloamapp.thegaragelabs.cc/privacy](https://gloamapp.thegaragelabs.cc/privacy/). This file is a mirror for anyone browsing GitHub.
+The canonical policy lives at [pennowick.com/yuyake/privacy](https://pennowick.com/yuyake/privacy/). This file is a mirror for anyone browsing GitHub.

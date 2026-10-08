@@ -6,9 +6,9 @@ Gloam is a Mac app for **live and photo-slideshow wallpapers**. Pick a scene and
 
 The product site has features, install steps, and FAQ:
 
-**[gloamapp.thegaragelabs.cc](https://gloamapp.thegaragelabs.cc)**
+**[pennowick.com/yuyake](https://pennowick.com/yuyake/)**
 
-Privacy policy: **[gloamapp.thegaragelabs.cc/privacy](https://gloamapp.thegaragelabs.cc/privacy/)** (offline mirror: [PRIVACY.md](PRIVACY.md))
+Privacy policy: **[pennowick.com/yuyake/privacy](https://pennowick.com/yuyake/privacy/)** (offline mirror: [PRIVACY.md](PRIVACY.md))
 
 ## Versioning
 
@@ -39,4 +39,4 @@ What's new in each version:
 
 Requires macOS 14 (Sonoma) or later.
 
-Questions and support: see [the website](https://gloamapp.thegaragelabs.cc) or email [support@gloam.app](mailto:support@gloam.app).
+Questions and support: see [the website](https://pennowick.com/yuyake/) or email [support@gloam.app](mailto:support@gloam.app).
